@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "210015995030",
+    "project_id": "ammar-cf63e",
+    "storage_bucket": "ammar-cf63e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210015995030:android:533d0fd2c0839c435ceeb7",
+        "android_client_info": {
+          "package_name": "com.example.Doctors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210015995030-56dfsejjtjo5bepp704eg91cbt3i6nm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Doctors",
+            "certificate_hash": "11c7e2e67fa919408b13cec37ab71fc82a0b8d4f"
+          }
+        },
+        {
+          "client_id": "210015995030-atj2q5gduj3ge8vlm9sp0j5e56k977kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrLMRZoqKL68e_ssUIzHIxedTU8mE9mzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210015995030-atj2q5gduj3ge8vlm9sp0j5e56k977kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+=====================================
+  Doctors App - Installation Guide
+=====================================
+
+OPTION 1: Run Directly (Easiest)
+---------------------------------
+Double-click on: run_app.bat
+The app will open in your browser.
+
+
+OPTION 2: Install as Desktop App (Recommended)
+-----------------------------------------------
+1. Double-click on: run_app.bat
+2. The app will open in Edge browser
+3. Click on the "..." menu (top right)
+4. Select "Apps" → "Install this site as an app"
+5. Click "Install"
+6. The app will now appear in your Start Menu and can be pinned to taskbar
+
+
+OPTION 3: Host on Local Server (For Development)
+--------------------------------------------------
+1. Open Command Prompt
+2. Navigate to: c:\Users\AlShaheen\Desktop\Doctors\flutter_application_1
+3. Run: npx http-server build\web -p 8080
+4. Open browser: http://localhost:8080
+
+
+HOW TO REBUILD THE APP:
+-----------------------
+If you make code changes, rebuild with:
+  cd c:\Users\AlShaheen\Desktop\Doctors\flutter_application_1
+  flutter build web --release
+
+
+FIREBASE SETUP:
+---------------
+To enable real Firebase services:
+1. Go to: https://console.firebase.google.com/
+2. Create a project
+3. Add a web app
+4. Copy the Firebase config
+5. Update main.dart lines 13-19 with your actual credentials
+6. Rebuild: flutter build web --release
+
+
+For support, contact the developer.
